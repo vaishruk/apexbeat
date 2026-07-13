@@ -1,0 +1,504 @@
+<title>{site} — A Visual Cardiology Curriculum for Internal Medicine Residents</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="A guideline-oriented, visually explained cardiology curriculum taking Internal Medicine residents from the medicine wards to Cardiology fellowship." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/main.css?v=15" />
+<html lang="en" class="no-js" data-theme="light"></html>
+
+<a href="#curriculum" class="skip-link">Skip to content</a>
+
+<!-- ===================== NAV ===================== -->
+<nav class="nav" aria-label="Primary">
+  <div class="nav-inner">
+    <a href="index.html" class="logo" aria-label="CardioLumen home">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="18.5" stroke="url(#lg)" stroke-width="1.5"/>
+        <path d="M6 21h6l2-6 3 12 3-9 2 4h12" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="40" y2="40">
+          <stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#7c9bff"/>
+        </linearGradient></defs>
+      </svg>
+      <span data-site-name>CardioLumen</span>
+    </a>
+    <div class="nav-links">
+      <a href="#curriculum">Curriculum</a>
+      <a href="#labs">ECG</a>
+      <a href="#labs">Echo</a>
+      <a href="#labs">Hemodynamics</a>
+      <a href="#cases">Cases</a>
+      <a href="#guidelines">Guidelines</a>
+      <a href="#board">Board</a>
+      <a href="#fellowship">Fellowship</a>
+      <a href="#research">Research</a>
+      <a href="#about">About</a>
+    </div>
+    <button class="icon-btn nav-cta-wrap" data-theme-toggle aria-label="Toggle light and dark theme" title="Toggle theme" style="margin-left:14px">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+    <a href="#curriculum" class="btn btn-primary btn-sm nav-cta" style="margin-left:10px">Start Learning
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <button class="icon-btn nav-burger" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" aria-label="Mobile navigation">
+  <a href="#curriculum">Curriculum</a>
+  <a href="#labs">ECG · Echo · Hemodynamics</a>
+  <a href="#cases">Clinical Cases</a>
+  <a href="#guidelines">Guidelines</a>
+  <a href="#board">Board Review</a>
+  <a href="#fellowship">Fellowship Prep</a>
+  <a href="#research">Research</a>
+  <a href="#about">About</a>
+</div>
+
+<main id="main">
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow g1"></div>
+  <div class="hero-glow g2"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="hero-eyebrow"><i class="pulse-dot"></i> A Visual Cardiology Curriculum for IM Residents</span>
+      <h1>From the Medicine Wards to <span class="accent">Cardiology Fellowship</span></h1>
+      <p class="hero-sub">Master the essential physiology, diagnostic tools, guidelines, clinical reasoning, and advanced concepts needed to care for cardiovascular patients and prepare for Cardiology fellowship.</p>
+      <div class="hero-ctas">
+        <a href="#curriculum" class="btn btn-primary">Explore the Curriculum
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#labs" class="btn btn-ghost">Start With ECG Basics</a>
+      </div>
+      <div class="hero-cred">
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Guideline-Oriented</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>Visually Explained</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z"/><path d="M4 20h16"/></svg>Case-Based</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg>Fellowship-Focused</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <figure class="heart-stage">
+        <img class="heart-anatomy" src="assets/img/heart-anatomy.svg" alt="Labeled anatomical diagram of the human heart showing the four chambers, valves, and great vessels" />
+        <figcaption class="heart-credit">Anatomy diagram: Wapcaplet &amp; ZooFari, CC BY-SA 3.0, via Wikimedia Commons</figcaption>
+      </figure>
+      <div class="ecg-strip"><canvas id="ecgCanvas" aria-hidden="true"></canvas></div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== STATS ===================== -->
+<div class="stats-strip">
+  <div class="wrap"><div class="stats-inner">
+    <div class="stat"><b>28</b><span>Deep modules</span></div>
+    <div class="stat"><b><em>3</em></b><span>Learning levels</span></div>
+    <div class="stat"><b>22</b><span>Landmark trials</span></div>
+    <div class="stat"><b>3</b><span>Interactive labs</span></div>
+  </div></div>
+</div>
+
+<!-- ===================== LEARNING PATHWAY ===================== -->
+<section class="section" id="pathway">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Learning Pathway</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">A structured climb from foundations to fellowship readiness</h2>
+    <p class="section-lede gs-reveal" data-delay="0.1">Every topic is tagged by level so you always know where a concept sits — and what comes next.</p>
+    <div class="pathway">
+      <article class="path-card gs-reveal" data-delay="0.05">
+        <div class="path-num">01</div>
+        <span class="level-badge level-1">Level 1</span>
+        <h3 style="margin-top:12px">Cardiology Foundations</h3>
+        <div class="path-for">For PGY-1 · ward-ready basics</div>
+        <p>Core concepts every Internal Medicine resident must know — anatomy, physiology, the ECG, and the bread-and-butter of inpatient cardiology.</p>
+        <div class="path-meta">
+          <div><b>9</b><span>Modules</span></div>
+          <div><b>~14h</b><span>Est. time</span></div>
+        </div>
+        <a href="#curriculum" class="btn btn-ghost btn-sm">Start Level 1</a>
+      </article>
+      <article class="path-card gs-reveal" data-delay="0.12">
+        <div class="path-num">02</div>
+        <span class="level-badge level-2">Level 2</span>
+        <h3 style="margin-top:12px">Advanced Clinical Cardiology</h3>
+        <div class="path-for">For PGY-2/3 · senior reasoning</div>
+        <p>Senior-resident-level clinical reasoning, interpretation, and management across ischemia, heart failure, arrhythmia, and valvular disease.</p>
+        <div class="path-meta">
+          <div><b>9</b><span>Modules</span></div>
+          <div><b>~20h</b><span>Est. time</span></div>
+        </div>
+        <a href="#curriculum" class="btn btn-ghost btn-sm">Start Level 2</a>
+      </article>
+      <article class="path-card gs-reveal" data-delay="0.19">
+        <div class="path-num">03</div>
+        <span class="level-badge level-3">Level 3</span>
+        <h3 style="margin-top:12px">Fellowship Readiness</h3>
+        <div class="path-for">For applicants · fellow-level prep</div>
+        <p>Hemodynamics, advanced imaging, electrophysiology, interventional concepts, and advanced heart failure — the vocabulary of a first-year fellow.</p>
+        <div class="path-meta">
+          <div><b>6</b><span>Modules</span></div>
+          <div><b>~18h</b><span>Est. time</span></div>
+        </div>
+        <a href="#curriculum" class="btn btn-ghost btn-sm">Start Level 3</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CURRICULUM ===================== -->
+<section class="section" id="curriculum" style="background:var(--bg-2); border-block:1px solid var(--line)">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Core Curriculum</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">Twenty-four topics, one coherent cardiology syllabus</h2>
+    <p class="section-lede gs-reveal" data-delay="0.1">Filter by learning level. Each card opens a standardized module with objectives, visuals, guideline summaries, a case, and knowledge checks.</p>
+
+    <div class="curric-filters gs-reveal" data-delay="0.12" data-filter-group data-filter-target=".topic-card">
+      <button class="filter-btn active" data-filter="all">All topics</button>
+      <button class="filter-btn" data-filter="1">Level 1 · Foundations</button>
+      <button class="filter-btn" data-filter="2">Level 2 · Advanced</button>
+      <button class="filter-btn" data-filter="3">Level 3 · Fellowship</button>
+    </div>
+
+    <div class="curric-grid" id="curricGrid"></div>
+  </div>
+</section>
+
+<!-- ===================== FEATURED INTERACTIVE ===================== -->
+<section class="section" id="featured">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Featured Interactive Learning</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">Learn by doing, not just reading</h2>
+    <div class="featured-grid" id="featuredGrid"></div>
+  </div>
+</section>
+
+<!-- ===================== CLINICAL CASES ===================== -->
+<section class="section" id="cases" style="background:var(--bg-2); border-block:1px solid var(--line)">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Clinical Cases</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">Reason through five presentations, one layer at a time</h2>
+    <p class="section-lede gs-reveal" data-delay="0.1">Cases unfold as you scroll — presentation, data, then the reasoning question — before any answer is revealed.</p>
+    <div class="cases-stack" id="casesStack"></div>
+  </div>
+</section>
+
+<!-- ===================== LABS (ECG / ECHO / HEMO) ===================== -->
+<section class="section" id="labs">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Interactive Labs</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">ECG, Echocardiography &amp; Hemodynamics — hands-on</h2>
+    <p class="section-lede gs-reveal" data-delay="0.1">Real, openly-licensed 12-lead ECGs and embedded echocardiography teaching clips, paired with hemodynamic pressure tracings modeled for clarity. Every image and video is credited to its source.</p>
+
+    <div class="lab-tabs gs-reveal" data-delay="0.12" data-tabs>
+      <button class="lab-tab active" data-tab="ecg">ECG Lab</button>
+      <button class="lab-tab" data-tab="echo">Echo Lab</button>
+      <button class="lab-tab" data-tab="hemo">Hemodynamics Lab</button>
+    </div>
+
+    <!-- ECG PANEL -->
+    <div class="lab-panel active" data-panel="ecg">
+      <div class="lab-layout">
+        <div class="lab-screen">
+          <div class="screen-head"><span class="rec"></span><span id="ecgScreenLabel">12-LEAD · 25 mm/s · 10 mm/mV</span><button class="ecg-zoom-btn" id="ecgZoom" aria-label="Enlarge ECG" title="Enlarge">⤢ Zoom</button></div>
+          <figure class="ecg-photo-wrap">
+            <img id="labEcgImg" class="ecg-photo" alt="12-lead ECG showing normal sinus rhythm" src="assets/ecg/sinus.jpg" loading="lazy" />
+            <figcaption id="ecgAttrib" class="ecg-attrib"></figcaption>
+          </figure>
+          <div class="lab-controls">
+            <button class="lab-ctrl on" data-ecg="nsr">Normal sinus</button>
+            <button class="lab-ctrl" data-ecg="afib">Atrial fibrillation</button>
+            <button class="lab-ctrl" data-ecg="stemi">Anterior STEMI</button>
+            <button class="lab-ctrl" data-ecg="inferior">Inferior STEMI</button>
+            <button class="lab-ctrl" data-ecg="avb3">Complete heart block</button>
+            <a class="lab-ctrl ext" href="https://litfl.com/ecg-library/" target="_blank" rel="noopener">Challenging cases at LITFL ↗</a>
+          </div>
+        </div>
+        <div class="lab-info">
+          <div class="lab-info-card">
+            <h4 id="ecgTitle">Normal sinus rhythm</h4>
+            <p id="ecgDesc"></p>
+          </div>
+          <div class="lab-info-card">
+            <h4>Systematic read — rate · rhythm · axis · intervals · morphology</h4>
+            <ul id="ecgPoints"></ul>
+            <div class="callout fellow" id="ecgFellow" style="margin-top:14px;padding:14px 16px"><b>Fellow-level</b><span id="ecgFellowText"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ECHO PANEL -->
+    <div class="lab-panel" data-panel="echo">
+      <p class="section-lede" style="margin:0 0 22px">Real echocardiographic teaching clips — normal views first, then the pathology worth recognizing on sight. Videos are embedded from their original educational channels; credit is shown on each.</p>
+      <div class="echo-video-grid" id="echoGrid"></div>
+    </div>
+
+    <!-- HEMO PANEL -->
+    <div class="lab-panel" data-panel="hemo">
+      <div class="lab-layout">
+        <div class="lab-screen">
+          <div class="screen-head"><span class="rec"></span><span id="hemoLabel">RIGHT ATRIUM · pressure vs time</span></div>
+          <svg id="hemoTrace" viewBox="0 0 800 240" preserveAspectRatio="none" style="width:100%;height:210px">
+            <g id="hemoGrid"></g>
+            <path id="hemoPath" fill="none" stroke="#2dd4bf" stroke-width="2.2"/>
+            <g id="hemoAnno"></g>
+          </svg>
+          <div class="lab-controls">
+            <button class="lab-ctrl on" data-hemo="ra">Right atrium</button>
+            <button class="lab-ctrl" data-hemo="rv">Right ventricle</button>
+            <button class="lab-ctrl" data-hemo="pa">Pulmonary artery</button>
+            <button class="lab-ctrl" data-hemo="pcwp">PCWP (wedge)</button>
+          </div>
+        </div>
+        <div class="lab-info">
+          <div class="lab-info-card">
+            <h4 id="hemoTitle">Right atrial pressure</h4>
+            <p id="hemoDesc">a wave (atrial contraction), c wave (tricuspid bulging), x descent, v wave (venous filling), y descent. Normal mean 2–6 mmHg.</p>
+            <div class="hemo-values" id="hemoValues"></div>
+          </div>
+          <div class="lab-info-card">
+            <h4>Clinical interpretation</h4>
+            <p id="hemoClinical">Elevated mean RA pressure suggests volume overload, RV failure, tricuspid disease, or pericardial constraint. Prominent <em>a</em> waves in reduced RV compliance; absent <em>a</em> waves in atrial fibrillation.</p>
+            <div class="pitfall"><b>Measurement error</b><br>Read pressures at end-expiration; over-wedging or a partially wedged catheter falsely lowers PCWP.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GUIDELINES ===================== -->
+<section class="section" id="guidelines" style="background:var(--bg-2); border-block:1px solid var(--line)">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Guideline Library</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">Guideline logic, distilled into decision-ready cards</h2>
+    <div class="guide-toolbar gs-reveal" data-delay="0.1">
+      <label class="guide-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="guideSearch" type="search" placeholder="Search guidelines — e.g. heart failure, atrial fibrillation, STEMI…" aria-label="Search guidelines" />
+      </label>
+    </div>
+    <div class="guide-legend gs-reveal" data-delay="0.12">
+      <span class="cor-chip cor-1">Class I</span>
+      <span class="cor-chip cor-2a">Class IIa</span>
+      <span class="cor-chip cor-2b">Class IIb</span>
+      <span class="cor-chip cor-3">Class III</span>
+      <span class="cor-chip loe">LOE A / B / C</span>
+      <span class="sample-tag">Sample content — verify before clinical use</span>
+    </div>
+    <div class="guide-grid" id="guideGrid"></div>
+  </div>
+</section>
+
+<!-- ===================== BOARD REVIEW ===================== -->
+<section class="section" id="board">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Board Review</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">Question of the Day &amp; a personal performance dashboard</h2>
+    <div class="board-layout">
+      <div class="qotd gs-reveal" data-quiz="C">
+        <div class="qotd-head">
+          <span class="level-badge level-2">Level 2</span>
+          <h3>Question of the Day</h3>
+          <span class="sample-tag">Demonstration item</span>
+        </div>
+        <p class="qotd-stem">A 68-year-old man with HFrEF (EF 30%) on lisinopril, carvedilol, and furosemide remains NYHA class II with a heart rate of 78 and BP 118/72. Potassium 4.4, eGFR 62. <strong>Which change is most likely to reduce mortality?</strong></p>
+        <div class="qotd-opts">
+          <button class="qotd-opt" data-key="A"><span class="opt-key">A</span> Increase furosemide dose</button>
+          <button class="qotd-opt" data-key="B"><span class="opt-key">B</span> Add amlodipine for afterload</button>
+          <button class="qotd-opt" data-key="C"><span class="opt-key">C</span> Substitute sacubitril–valsartan for lisinopril and add an SGLT2 inhibitor</button>
+          <button class="qotd-opt" data-key="D"><span class="opt-key">D</span> Add digoxin</button>
+        </div>
+        <div class="qotd-expl">
+          <b>Correct: C.</b> In HFrEF, the four pillars of guideline-directed therapy are an ARNI (or ACEi/ARB), a beta-blocker, an MRA, and an SGLT2 inhibitor. Transitioning a tolerating patient from an ACEi to an ARNI and adding an SGLT2 inhibitor both carry mortality benefit. Loop diuretics and digoxin relieve symptoms without improving survival; dihydropyridine calcium-channel blockers are not disease-modifying in HFrEF.
+          <div class="sample-tag" style="margin-top:12px">Educational sample — confirm against current ACC/AHA/HFSA guidance.</div>
+        </div>
+      </div>
+      <div class="board-side">
+        <div class="board-stat-card gs-reveal" data-delay="0.06">
+          <h4>Performance by topic <span class="sample-tag">Mock data</span></h4>
+          <div class="perf-row"><span>Ischemic HD</span><div class="perf-bar"><i style="width:82%"></i></div><b>82%</b></div>
+          <div class="perf-row"><span>Arrhythmia</span><div class="perf-bar"><i style="width:64%"></i></div><b>64%</b></div>
+          <div class="perf-row"><span>Heart failure</span><div class="perf-bar"><i style="width:91%"></i></div><b>91%</b></div>
+          <div class="perf-row"><span>Valvular</span><div class="perf-bar"><i style="width:58%"></i></div><b>58%</b></div>
+          <div class="perf-row"><span>Hemodynamics</span><div class="perf-bar"><i style="width:73%"></i></div><b>73%</b></div>
+        </div>
+        <div class="board-stat-card gs-reveal" data-delay="0.12">
+          <h4>Weekly streak <span class="sample-tag">Mock data</span></h4>
+          <div class="streak-days">
+            <div class="streak-day done">M</div><div class="streak-day done">T</div>
+            <div class="streak-day done">W</div><div class="streak-day done">T</div>
+            <div class="streak-day done">F</div><div class="streak-day">S</div><div class="streak-day">S</div>
+          </div>
+          <p style="font-size:12.5px;color:var(--muted);margin-top:14px">5-day streak · 12 questions reviewed today · 3 saved for later.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FELLOWSHIP PREP ===================== -->
+<section class="section" id="fellowship" style="background:var(--bg-2); border-block:1px solid var(--line)">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Fellowship Preparation</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">A roadmap for the residents applying next</h2>
+    <p class="section-lede gs-reveal" data-delay="0.1">Professional educational resources for the application journey — presented as guidance, not promises about matching.</p>
+    <div class="prep-grid" id="prepGrid"></div>
+
+    <h3 class="gs-reveal" style="font-size:22px;margin:56px 0 8px">Where to present as an IM resident</h3>
+    <p class="section-lede gs-reveal" style="margin-top:0">Meetings that regularly accept resident posters, abstracts, and clinical vignettes. Check each society's site for current submission deadlines.</p>
+    <div class="curric-grid gs-reveal" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr));margin-top:22px">
+      <div class="prep-card"><h4>ACC Annual Scientific Session</h4><p>American College of Cardiology national meeting — abstracts, moderated posters, and a dedicated FIT (fellow-in-training) track. Regional ACC chapter meetings also take resident work.</p></div>
+      <div class="prep-card"><h4>AHA Scientific Sessions</h4><p>American Heart Association flagship science meeting — strong basic/clinical/population abstract venue.</p></div>
+      <div class="prep-card"><h4>ACP Internal Medicine Meeting</h4><p>American College of Physicians — national and state chapter competitions specifically for resident/student posters and clinical vignettes; an accessible first poster.</p></div>
+      <div class="prep-card"><h4>SCAI / TCT</h4><p>Interventional cardiology meetings (Society for Cardiovascular Angiography &amp; Interventions; Transcatheter Cardiovascular Therapeutics) for structural/interventional work.</p></div>
+      <div class="prep-card"><h4>HRS</h4><p>Heart Rhythm Society annual meeting for electrophysiology and device abstracts.</p></div>
+      <div class="prep-card"><h4>HFSA</h4><p>Heart Failure Society of America meeting for heart-failure and transplant scholarship.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESEARCH ===================== -->
+<section class="section" id="research">
+  <div class="wrap">
+    <span class="kicker gs-reveal">Research &amp; Evidence</span>
+    <h2 class="section-title gs-reveal" data-delay="0.05">Reading the literature like a fellow</h2>
+    <p class="section-lede gs-reveal" data-delay="0.1">Structured study-summary cards teach evidence appraisal. Trial results, citations, and identifiers are never fabricated — this template shows the format with clearly labeled placeholder content.</p>
+    <div class="study-card gs-reveal" data-delay="0.05">
+      <div class="study-head">
+        <span class="level-badge level-3">Level 3</span>
+        <h3>Study-summary card — template</h3>
+        <span class="sample-tag">Placeholder — no results asserted</span>
+      </div>
+      <div class="picot">
+        <div class="picot-cell"><span>Population</span><p>Adults with the target condition — defined by explicit inclusion/exclusion criteria.</p></div>
+        <div class="picot-cell"><span>Intervention</span><p>The therapy or strategy under study.</p></div>
+        <div class="picot-cell"><span>Comparator</span><p>Placebo, standard of care, or an active control.</p></div>
+        <div class="picot-cell"><span>Outcome</span><p>Pre-specified primary endpoint and key secondaries.</p></div>
+      </div>
+      <div class="study-result">
+        <div class="res main"><b>Main result</b>To be entered from the verified primary publication. This template does not assert an effect size.</div>
+        <div class="res lim"><b>Limitations</b>Design, blinding, follow-up, external validity, and conflicts of interest are appraised here.</div>
+      </div>
+      <p style="font-size:13.5px;color:var(--muted);margin-top:16px"><strong>Clinical takeaway:</strong> One sentence on how the evidence changes bedside practice — added only after the source is verified.</p>
+      <div class="study-cite">Full citation, journal, year, DOI and PMID are transcribed directly from the source. Never generated.</div>
+    </div>
+
+    <h3 class="gs-reveal" style="font-size:22px;margin:56px 0 6px">Landmark trials every fellow should know</h3>
+    <p class="section-lede gs-reveal" style="margin-top:0">A condensed, high-yield reference. Each card links to the primary paper on PubMed (links verified).</p>
+    <div class="curric-filters gs-reveal" data-filter-group data-filter-target=".trial-card">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="Ischemia">Ischemia</button>
+      <button class="filter-btn" data-filter="Heart failure">Heart failure</button>
+      <button class="filter-btn" data-filter="Electrophysiology">EP / AF</button>
+      <button class="filter-btn" data-filter="Structural">Structural</button>
+      <button class="filter-btn" data-filter="Shock / MCS">Shock / MCS</button>
+      <button class="filter-btn" data-filter="Prevention / lipids">Prevention</button>
+      <button class="filter-btn" data-filter="Pulmonary HTN">Pulm HTN</button>
+    </div>
+    <div class="trials-grid" id="trialsGrid"></div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section" id="about" style="background:var(--bg-2); border-block:1px solid var(--line)">
+  <div class="wrap">
+    <span class="kicker gs-reveal">About the Creator</span>
+    <div class="about-layout">
+      <div class="about-photo gs-reveal">
+        <img class="about-photo-img" src="assets/img/creator.jpg" alt="Vaishnavi Sabesan, MD"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+        <div class="about-photo-fallback" style="display:none">
+          <svg viewBox="0 0 200 200" fill="none" stroke="var(--teal)" stroke-width="3" opacity="0.8"><circle cx="100" cy="72" r="38"/><path d="M32 182c0-38 30-62 68-62s68 24 68 62"/></svg>
+          <div class="photo-note">Save your photo to assets/img/creator.jpg</div>
+        </div>
+      </div>
+      <div class="about-body gs-reveal" data-delay="0.08">
+        <h3 data-creator>Vaishnavi Sabesan, MD</h3>
+        <div class="about-role">Internal Medicine Resident · Cardiology Fellowship Applicant</div>
+        <p>This platform grew out of teaching cardiology to co-residents on the wards. Its aim is to make the reasoning behind cardiovascular care legible — from a first ECG to a right-heart catheterization tracing.</p>
+        <div class="mission">"My goal is to make complex cardiovascular concepts visual, structured, and clinically useful for Internal Medicine residents preparing to care for cardiac patients and pursue advanced cardiovascular training."</div>
+        <p>Editable sections include biography, medical education, residency training, clinical and research interests, teaching philosophy, publications, presentations, curriculum vitae, and professional contact information.</p>
+        <div class="about-tags">
+          <span class="chip">Medical education</span>
+          <span class="chip">Clinical reasoning</span>
+          <span class="chip">Cardiovascular imaging</span>
+          <span class="chip">Digital scholarship</span>
+        </div>
+        <p style="margin-top:20px">
+          <a href="mailto:vaishruk@gmail.com" class="btn btn-ghost btn-sm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="width:15px;height:15px"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            vaishruk@gmail.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="index.html" class="logo" style="font-size:19px">
+          <svg class="logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <circle cx="20" cy="20" r="18.5" stroke="url(#lg2)" stroke-width="1.5"/>
+            <path d="M6 21h6l2-6 3 12 3-9 2 4h12" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs><linearGradient id="lg2" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#7c9bff"/></linearGradient></defs>
+          </svg>
+          <span data-site-name>CardioLumen</span>
+        </a>
+        <p data-site-tagline>From Internal Medicine Residency to Cardiology Fellowship</p>
+      </div>
+      <div class="foot-col">
+        <h5>Learn</h5>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#labs">ECG Lab</a>
+        <a href="#labs">Echo Lab</a>
+        <a href="#labs">Hemodynamics</a>
+        <a href="#guidelines">Guidelines</a>
+      </div>
+      <div class="foot-col">
+        <h5>Prepare</h5>
+        <a href="#board">Board Review</a>
+        <a href="#fellowship">Fellowship Prep</a>
+        <a href="#research">Research</a>
+        <a href="modules/module.html?t=acute-coronary-syndromes">Sample Module</a>
+        <a href="#about">About the Creator</a>
+      </div>
+      <div class="foot-col">
+        <h5>Academic</h5>
+        <a href="pages/policies.html#editorial">Editorial Policy</a>
+        <a href="pages/policies.html#referencing">Referencing Standards</a>
+        <a href="pages/policies.html#review">Medical Review Process</a>
+        <a href="pages/policies.html#corrections">Corrections</a>
+        <a href="pages/policies.html#privacy">Privacy</a>
+      </div>
+    </div>
+    <div class="foot-disclaimer">
+      <b>Educational disclaimer</b>
+      This website is intended for medical education. It does not replace institutional protocols, specialist consultation, or individualized clinical judgment. Recommendations should be verified against current professional guidelines and local policies.
+    </div>
+    <div class="foot-base">
+      <span>© <span data-site-year>2026</span> <span data-site-name>CardioLumen</span>. Built as an educational and digital-scholarship project.</span>
+      <span>Sample clinical content is labeled and must be verified before any clinical use.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== SCRIPTS ===================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/config.js?v=15"></script>
+<script src="js/data.js?v=15"></script>
+<script src="js/render.js?v=15"></script>
+<script src="js/labs.js?v=15"></script>
+<script src="js/hero.js?v=15"></script>
+<script src="js/search.js?v=15"></script>
+<script src="js/app.js?v=15"></script>
