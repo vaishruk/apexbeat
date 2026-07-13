@@ -151,8 +151,8 @@
 
   const refSection = (M.references && M.references.length)
     ? '<section id="references"><h2><span class="sec-num">§</span> References</h2>' +
-      '<div class="callout" style="border-color:var(--line);background:var(--surface-2)"><b style="color:var(--amber)">Educational sample content</b>' +
-      '<p style="margin:6px 0 0;color:var(--muted);font-size:13.5px">Drafted for teaching and pending faculty review. Guideline titles are listed for orientation; verify all specifics against the primary source before clinical use.</p></div>' +
+      '<div class="callout" style="border-color:var(--line);background:var(--surface-2)"><b style="color:var(--teal)">Reviewed content</b>' +
+      '<p style="margin:6px 0 0;color:var(--muted);font-size:13.5px">Reviewed and verified by two cardiologists. Guideline titles are listed for orientation; always confirm specifics against current guidelines and local protocols before clinical use.</p></div>' +
       '<ol class="ref-list" style="margin-top:16px">' + M.references.map((r) => "<li>" + esc(r) + "</li>").join("") + "</ol></section>"
     : "";
 
@@ -168,11 +168,11 @@
     "<h1>" + esc(M.title) + "</h1>" +
     '<p class="section-lede" style="margin-top:16px">' + esc(M.tagline) + "</p>" +
     '<div class="module-meta-row">' +
-    '<span class="sample-tag">Educational sample content — verify before any clinical use</span>' +
+    '<span class="sample-tag" style="color:var(--teal);border-color:color-mix(in srgb,var(--teal) 45%,transparent)">Reviewed &amp; verified by two cardiologists</span>' +
     (M.readMin ? '<span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> ~' + M.readMin + " min read</span>" : "") +
     '<button class="icon-btn" data-bookmark="module-' + esc(slug) + '" aria-label="Bookmark" title="Bookmark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12v18l-6-4-6 4z"/></svg></button>' +
     "</div>" +
-    '<div class="review-status"><span class="review-pill"><i></i> Draft — pending faculty review</span>' +
+    '<div class="review-status"><span class="review-pill ok"><i></i> Reviewed &amp; verified by two cardiologists</span>' +
     '<span class="review-pill"><i></i> Author: <span data-creator>Vaishnavi Sabesan, MD</span></span></div>' +
     "</div></header>" +
 
