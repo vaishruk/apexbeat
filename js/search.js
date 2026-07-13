@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — global topic search
+   ApexBeat — global topic search
    Self-contained: injects its own nav button + overlay so it
    works identically on every page. Cmd/Ctrl-K to open, arrow
    keys to move, Enter to go, Esc to close.

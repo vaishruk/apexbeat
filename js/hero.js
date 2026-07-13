@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — hero ECG waveform
+   ApexBeat — hero ECG waveform
    A lightweight 2D canvas ECG that sweeps beneath the anatomical
    hero image. The heavy WebGL scene was removed: it starved the
    main thread / requestAnimationFrame and janked scrolling, and

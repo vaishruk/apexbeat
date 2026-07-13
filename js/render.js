@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — render layer
+   ApexBeat — render layer
    Builds curriculum, featured, cases, echo, guidelines, prep.
    ============================================================ */
 (function () {

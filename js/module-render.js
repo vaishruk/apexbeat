@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — data-driven module renderer
+   ApexBeat — data-driven module renderer
    Reads window.MODULES[slug] (slug from ?t=) and renders a full
    standardized module: breadcrumb, hero, depth toggle, TOC,
    depth-gated content blocks, knowledge checks, guideline
@@ -32,7 +32,7 @@
     return;
   }
 
-  document.title = M.title + " — " + (window.SITE ? window.SITE.name : "CardioLumen");
+  document.title = M.title + " — " + (window.SITE ? window.SITE.name : "ApexBeat");
 
   /* ---------- block renderers ---------- */
   const CALL_LABEL = { pearl: "Clinical pearl", fellow: "Fellowship level", danger: "Do not miss" };

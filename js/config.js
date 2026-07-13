@@ -1,10 +1,10 @@
 /* ============================================================
-   CardioLumen — site configuration
+   ApexBeat — site configuration
    Change the site name/tagline here; every page picks it up
    via [data-site-name] and [data-site-tagline] elements.
    ============================================================ */
 window.SITE = {
-  name: "CardioLumen",
+  name: "ApexBeat",
   tagline: "From Internal Medicine Residency to Cardiology Fellowship",
   creator: "Vaishnavi Sabesan, MD",
   creatorRole: "Internal Medicine Resident",

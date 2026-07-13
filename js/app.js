@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — shared interactions
+   ApexBeat — shared interactions
    Theme, nav, mobile menu, scroll reveals (GSAP), depth toggles,
    filters, tabs, guideline search, board review, case stacking.
    ============================================================ */

@@ -1,4 +1,4 @@
-# CardioLumen
+# ApexBeat
 
 A visual cardiology education platform for Internal Medicine residents preparing for Cardiology fellowship. Built as a polished, responsive, multi-page teaching site and digital-scholarship project.
 

@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — content data
+   ApexBeat — content data
    All clinical content here is EDUCATIONAL SAMPLE material and
    is labeled as such in the UI. No guideline recommendation,
    trial result, DOI, or PMID is fabricated.

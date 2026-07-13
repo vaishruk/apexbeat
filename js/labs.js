@@ -1,5 +1,5 @@
 /* ============================================================
-   CardioLumen — labs engine
+   ApexBeat — labs engine
    ECG Lab now shows REAL openly-licensed 12-lead ECGs (Wikimedia
    Commons, attributed). Echo Lab embeds REAL teaching clips from
    their original channels. Hemodynamics uses procedurally-drawn
